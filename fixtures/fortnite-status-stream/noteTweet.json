@@ -1,0 +1,25 @@
+{
+  "data": {
+    "id": "2000000000000000002",
+    "author_id": "1111111111111111111",
+    "text": "Long maintenance note…",
+    "note_tweet": {
+      "text": "Long maintenance note covering multiple systems and expected resolution windows for BR matchmaking and login."
+    },
+    "created_at": "2026-08-05T15:05:00.000Z",
+    "edit_history_tweet_ids": [
+      "2000000000000000002"
+    ]
+  },
+  "includes": {
+    "users": [
+      {
+        "id": "1111111111111111111",
+        "name": "Fortnite Status",
+        "username": "FortniteStatus",
+        "verified": true,
+        "verified_type": "business"
+      }
+    ]
+  }
+}

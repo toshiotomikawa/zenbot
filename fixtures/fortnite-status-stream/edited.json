@@ -1,0 +1,23 @@
+{
+  "data": {
+    "id": "2000000000000000003",
+    "author_id": "1111111111111111111",
+    "text": "All Fortnite services are online. (updated ETA)",
+    "created_at": "2026-08-05T15:10:00.000Z",
+    "edit_history_tweet_ids": [
+      "2000000000000000001",
+      "2000000000000000003"
+    ]
+  },
+  "includes": {
+    "users": [
+      {
+        "id": "1111111111111111111",
+        "name": "Fortnite Status",
+        "username": "FortniteStatus",
+        "verified": true,
+        "verified_type": "business"
+      }
+    ]
+  }
+}

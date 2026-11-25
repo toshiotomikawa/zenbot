@@ -1,0 +1,34 @@
+{
+  "name": "zenbot",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Discord bot with HTTP interactions, Gateway presence, MCP OAuth resource server, GPT Actions adapter, and Fortnite/X utilities.",
+  "main": "app.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "register": "node commands.js",
+    "dev": "nodemon app.js",
+    "test": "node --import ./test-setup.js --test command-sync.test.js discord-agent-presence.test.js discord-agent-mentions.test.js llm.test.js audit-log.test.js discord-feed-utils.test.js fortnite-status-stream.test.js mcp-discord-read.test.js mcp-discord-write.test.js mcp-discord-write-integration.test.js task-thread-close.test.js task-pr-completion.test.js mcp-discord-research.test.js mcp-discord-2a3a.test.js discord-agent-identities.test.js mcp.test.js mcp-responses-smoke.test.js gpt-actions.test.js github-repo-events.test.js presence-director.test.js presence-join.test.js a2h.test.js",
+    "mcp-responses-smoke": "node mcp-responses-smoke.js",
+    "fortnite-status-stream-dryrun": "node fortnite-status-stream-dryrun.mjs"
+  },
+  "author": "toshiotomikawa",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@napi-rs/canvas": "^1.0.0",
+    "discord-interactions": "^4.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jose": "^6.2.8",
+    "ws": "^8.21.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
